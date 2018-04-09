@@ -1,6 +1,6 @@
 # _FLUFFY CALCULATOR_
 
-_This Web page is about **SETTING TRAVEL GOALS**_.<br/>
+_This Web page is about a simple**Calculator app**_.<br/>
 _version: 8/04/2018_<br/>
 
 _By **Josh Hortt**_
