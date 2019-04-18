@@ -1,15 +1,27 @@
-# _FLUFFY CALCULATOR_
+# FLUFFY CALCULATOR
 
 _This Web page is about a simple**Calculator app**_.<br/>
 _version: 8/04/2018_<br/>
+_version updated: 18/04/2019_<br/>
 
 _By **Josh Hortt**_
 
 ## Description
 
-_This application is a demonstration of creating and using basic functions to create a very basic calculator and learning about the separation of the user-interface logic("front-end") and the business logic("backend") and basic regular expressions_.
+_This app is a demonstration of creating and using basic functions to create an evolving calculator_.<br/>
+_That's why I called it **Fluffy Calculator**_.<br/>
+_It explains the separation of the user-interface logic("front-end") and the business logic("back-end")_.<br/>
 
-_I created a browser-based GUI for a very basic calculator that uses CSS3 properties such as border-radius, transform, and box-shadow to make a more modern feel to the UI. Also, a sprinkle of regular expressions is used to substitute the 'x' sign for multiplication and the '÷' sign for division when computing the values using JavaScript functions_.
+_The business logic and user interface logic are distinctly separate sections of the (scripts.js file)_.<br/>
+_The user interface sections is responsible for gathering user-given values, parsing them into integers_,<br/>
+_and calling our add() function when the user submits a form. It also displays the result of the add()_<br/> _function directly on the page. Essentially, it's handling all interactivity with the user_.<br/>
+_It can call a back-end function (as seen in var result = _add(number1, number2);), but the function_<br/>
+_is not defined here in this block of code. That's the responsibility of the business, or back-end-logic_.<br/>
+
+_The business logic contains functions for all capabilities that this calculator will eventually have_.<br/>
+_It instructs the application what to do when a user opts to add two numbers, or when a user wants to_<br/> _divide two numbers (a feature I will add later on). All logic here occurs behind the scenes_.<br/>
+_The user interface logic may call one of the business logic's functions when necessary, but the these_<br/> _functions themselves are defined in the back-end_.
+
 
 ## Setup/Installation Requirements
 
@@ -22,22 +34,16 @@ _**Source**: github.com/Joshhortt/fluffy-calculator_
 
 ## Support and Contact Details
 
-_If you have any issues or have questions, ideas, concerns, please contact:_ joshhortt@yahoo.com
+_If you have any issues or have questions, ideas, concerns, please contact: joshhortt@yahoo.com_
 
 ## Technologies Used
 
 _**HTML** - Hyper Text Markup Language_<br/>
 _**CSS3** - Cascading Style Sheets_<br/>
-_**BOOTSTRAP** - Bootstrap_
+_**BOOTSTRAP** - Bootstrap_<br/>
 _**JQUERY** - Basic JQuery_
 
 ## License
 
-*MIT License. Copyright (c) 2018 Josh Hortt*
-This software is licensed under the MIT license.
-
-_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions_:
-
-_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software_.
-
-_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE_.
+_*MIT License. Copyright (c) 2018 Josh Hortt*_<br/>
+_This software is licensed under the MIT license_.
