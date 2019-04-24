@@ -30,8 +30,8 @@ _functions themselves are defined in the back-end_.
 _Now after exploring more JavaScript branching, I 'll add' all four capabilities to this calculator_:<br/>
 _**Addition, subtraction, multiplication, and division** into a single form with a **single submit button** and **event listener**_.<br/>
 _I'll add **radio buttons** that allow the user to choose whether they'd like to add, subtract, multiply, or divide_<br/>
-_the two numbers provided in the form_.
-_version updated: 24/04/2019_<br/>
+_the two numbers provided in the form_.<br/>
+_version updated: 24/04/2019_
 
 
 ## Setup/Installation Requirements
